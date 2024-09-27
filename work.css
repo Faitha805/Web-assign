@@ -1,0 +1,49 @@
+.topnav {
+    background-color:black}
+
+.topnav a {
+     float: left;
+     color: white;
+     text-align: right;}
+
+.topnav a.active {
+     color: rgb(118, 118, 240)92, 92, 241;
+}
+
+.topnav a:hover { 
+    background-color: black;
+    color: blue;}
+    
+#home{
+    font-size: larger;
+    text-align: left;
+}
+
+body{
+    background-image: url(backview.jpeg);
+    color: white;
+}
+
+.content{
+    background-color:rgba(0, 0, 0, 0.13)0, 0, 0, 0.205 ;
+    backgroung-size: 300px 100px
+}
+
+#title{
+    font-size:x-large
+}
+
+.conclusion{
+    background-color: rgb(66, 65, 65);
+    
+
+}
+
+#heading{
+    text-decoration: underline;
+    font-size: large
+}
+
+button{
+    float: right;
+}
