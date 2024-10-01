@@ -1,18 +1,38 @@
 .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 
     
 }
 
 .opening{
     padding: 1%;
+    flex: 1;
 }
 
 .topnav {
     background-color:black;
     overflow: hidden;
-    padding: 0%;
+    padding: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    z-index: 30;
 }
     
+.left_div, .right_div{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left_div{
+    width: 10vw;
+    margin-left: 3vw;
+}
 
 .topnav a {
      float: left;
@@ -49,18 +69,22 @@ body{
     padding: 15%;
     padding-left: 15%;
     padding-right: 15%;
+    position: relative;
+    top: -30px;
+    z-index: 20;
 
     
 }
 
 .items{
     background-color: rgba(0, 0, 0, 0.336);
-    background-size: 100px 100px;
+    background-size: 70px 70px;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex: 4;
 
 }
 
@@ -85,6 +109,9 @@ body{
     background-size: 03cm;
     align-items: center;
     padding: 1%;
+    flex: 5;
+    position:relative;
+    top: -50px;
 
 }
 
@@ -92,3 +119,5 @@ body{
     text-decoration: underline;
     font-size: x-large
 }
+
+
